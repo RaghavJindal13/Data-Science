@@ -15,3 +15,21 @@ A good ,well analysed Report is the one that includes a :<br>
 9) Acknowledgements Section <br>
 10) Appendices Section<br>
 <br>
+Importing dataset
+Import pandas as pd
+•	df=pd.read_csv(data.csv)
+•	url = “https//:evliubfukbf”
+df=pd.read_csv(url)
+•	if headers are not given in dataset
+df=pd.read_csv(data.csv,header=None)
+headers=[“id”,”name”,”status”]
+df.columns=headers
+Exporting the dataset
+Path=”C:\Windows\download\datascience”
+Df.to_csv(path)
+
+
+To check shape of dataset – df.shape
+To check first 5 rows of dataset—df.head()	df.tail(n)
+df.info – gives top 30 and last 30 rows
+To check number of rows – len(df)
