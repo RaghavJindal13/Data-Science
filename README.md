@@ -15,9 +15,9 @@ A good ,well analysed Report is the one that includes a :<br>
 9) Acknowledgements Section <br>
 10) Appendices Section<br>
 <br>
-Importing dataset<br>
-Import pandas as pd
-•	df=pd.read_csv(data.csv)
+# Importing dataset<br>
+Import pandas as pd<br>
+•	df=pd.read_csv(data.csv)<br>
 •	url = “https//:evliubfukbf”
 df=pd.read_csv(url)
 •	if headers are not given in dataset
