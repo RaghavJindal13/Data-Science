@@ -29,7 +29,10 @@ Path=”C:\Windows\download\datascience”
 Df.to_csv(path)
 
 <br>
-To check shape of dataset – df.shape
-To check first 5 rows of dataset—df.head()	df.tail(n)
+To check shape of dataset 
+ df.shape
+To check first 5 rows of dataset—df.head()
+	df.tail(n)<br>
+
 df.info – gives top 30 and last 30 rows
 To check number of rows – len(df)
